@@ -17,6 +17,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
 	})
 }
 
+// calc self-employed
+const self = document.querySelector('.self-employment');
+const formSelf = self.querySelector('.calc__form');
+const resultSelf = self.querySelector('.result__tax');
+
+formSelf.addEventListener('input', () => {
+	resultSelf.textContent = (formSelf.phys.value * 0.04) + (formSelf.legal.value * 0.06);
+});
+
+// calc ausn
 const ausn = document.querySelector('.ausn');
 const formAusn = ausn.querySelector('.calc__form');
 const resultTaxTotal = ausn.querySelector('.result__tax_total');

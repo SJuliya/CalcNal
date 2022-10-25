@@ -52,7 +52,7 @@
 
         <div class="calc__wrapper">
           <div class="calc__form-wrapper">
-            <form class="calc__form">
+            <form class="calc__form" id="self-employment">
               <label class="calc__label calc__label_input">
                 <span class="calc__text">Доход от физических лиц</span>
                 <input class="calc__input" type="number" name="individual">
@@ -101,7 +101,7 @@
         </div>
 
         <div class="calc__reset">
-          <button class="calc__btn-reset" type="reset">Очистить</button>
+          <button class="calc__btn-reset" type="reset" form="self-employment">Очистить</button>
         </div>
       </section>
 
@@ -112,7 +112,7 @@
 
         <div class="calc__wrapper">
           <div class="calc__form-wrapper">
-            <form class="calc__form">
+            <form class="calc__form" id="tax-return">
               <div class="calc__radio-wrapper">
                 <label class="calc__label calc__label_radio">
                   <input class="calc__radio" type="radio" name="sumExpenses" value="2000000" checked>
@@ -162,7 +162,7 @@
         </div>
 
         <div class="calc__reset">
-          <button class="calc__btn-reset" type="reset">Очистить</button>
+          <button class="calc__btn-reset" type="reset" form="tax-return">Очистить</button>
         </div>
       </section>
 
@@ -173,7 +173,7 @@
 
         <div class="calc__wrapper">
           <div class="calc__form-wrapper">
-            <form class="calc__form">
+            <form class="calc__form" id="usn">
 
               <div class="calc__radio-wrapper">
                 <label class="calc__label calc__label_radio">
@@ -230,7 +230,7 @@
         </div>
 
         <div class="calc__reset">
-          <button class="calc__btn-reset" type="reset">Очистить</button>
+          <button class="calc__btn-reset" type="reset" form="usn">Очистить</button>
         </div>
       </section>
 
@@ -241,7 +241,7 @@
 
         <div class="calc__wrapper">
           <div class="calc__form-wrapper">
-            <form class="calc__form">
+            <form class="calc__form" id="osno">
               <div class="calc__radio-wrapper">
                 <label class="calc__label calc__label_radio">
                   <input class="calc__radio" type="radio" name="formBusiness" value="IP" checked>
@@ -303,7 +303,7 @@
         </div>
 
         <div class="calc__reset">
-          <button class="calc__btn-reset" type="reset">Очистить</button>
+          <button class="calc__btn-reset" type="reset" form="osno">Очистить</button>
         </div>
       </section>
 
@@ -314,7 +314,7 @@
 
         <div class="calc__wrapper">
           <div class="calc__form-wrapper">
-            <form class="calc__form">
+            <form class="calc__form" id="ausn">
               <div class="calc__radio-wrapper">
                 <label class="calc__label calc__label_radio">
                   <input class="calc__radio" type="radio" name="type" value="income" checked>
@@ -350,7 +350,7 @@
         </div>
 
         <div class="calc__reset">
-          <button class="calc__btn-reset" type="reset">Очистить</button>
+          <button class="calc__btn-reset" type="reset" form="ausn">Очистить</button>
         </div>
       </section>
     </div>
